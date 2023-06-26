@@ -46,7 +46,7 @@ function connectToNewUser(userId, stream) {
 
   peers[userId] = call
 }
-
+//wdjdgkb
 function addVideoStream(video, stream) {
   video.srcObject = stream
   video.addEventListener('loadedmetadata', () => {
